@@ -7,13 +7,13 @@ public class main {
 
       System.out.println(board.toString());
 
-      board.startDisplay();
+      board.setFigure("D5", new Pawn(FigureColour.WHITE));
 
       System.out.println(board.toString());
-      System.out.println(board.getFigure(0,0));
 
-      board.setFigure(2,5, new Queen(FigureColour.BLACK));
+      board.move("D5", "E6");
 
       System.out.println(board.toString());
+
     }
 }

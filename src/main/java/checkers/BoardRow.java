@@ -19,6 +19,10 @@ public class BoardRow {
         this.boardRow.remove(col);
         this.boardRow.add(col, figure);
     }
+	public void removeFigure(int col, Figure figure) {
+		this.boardRow.remove(col);
+		this.boardRow.add(col, figure);
+	}
 
 	@Override
 	public String toString() {

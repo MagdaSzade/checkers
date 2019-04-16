@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="figures.FigureTestSuite" tests="8" skipped="0" failures="0" errors="0" timestamp="2019-03-18T20:13:03" hostname="SZADE-LENOVO" time="0.004">
+  <properties/>
+  <testcase name="testGetGraph" classname="figures.FigureTestSuite" time="0.0"/>
+  <testcase name="testFigures" classname="figures.FigureTestSuite" time="0.0"/>
+  <testcase name="testToString" classname="figures.FigureTestSuite" time="0.0"/>
+  <testcase name="testAreDifferentColourFalse" classname="figures.FigureTestSuite" time="0.0"/>
+  <testcase name="testAreDifferentColourTrue" classname="figures.FigureTestSuite" time="0.0"/>
+  <testcase name="testGetColour" classname="figures.FigureTestSuite" time="0.001"/>
+  <testcase name="testIsEmpty" classname="figures.FigureTestSuite" time="0.0"/>
+  <testcase name="testIsEmptyFalse" classname="figures.FigureTestSuite" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

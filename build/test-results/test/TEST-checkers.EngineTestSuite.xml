@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="checkers.EngineTestSuite" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-03-18T20:13:03" hostname="SZADE-LENOVO" time="0.002">
+  <properties/>
+  <testcase name="testIsValid" classname="checkers.EngineTestSuite" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

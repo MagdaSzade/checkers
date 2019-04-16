@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="board.BoardTestSuite" tests="2" skipped="0" failures="0" errors="0" timestamp="2019-03-18T20:13:03" hostname="SZADE-LENOVO" time="0.006">
+  <properties/>
+  <testcase name="testBoard" classname="board.BoardTestSuite" time="0.005"/>
+  <testcase name="testSetFigure" classname="board.BoardTestSuite" time="0.0"/>
+  <system-out><![CDATA[  A  B  C  D  E  F  G  H 
+8|  |Bp|  |Bp|  |Bp|  |Bp|
+7|Bp|  |Bp|  |Bp|  |Bp|  |
+6|  |Bp|  |Bp|  |Bp|  |Bp|
+5|  |  |  |  |  |  |  |  |
+4|  |  |  |  |  |  |  |  |
+3|Wp|  |Wp|  |Wp|  |Wp|  |
+2|  |Wp|  |Wp|  |Wp|  |Wp|
+1|Wp|  |Wp|  |Wp|  |Wp|  |
+
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

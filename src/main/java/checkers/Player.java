@@ -1,6 +1,6 @@
 package checkers;
 
-import board.Board;
+import consoleMode.BoardConsoleMode.BoardConsoleDisplay;
 import figures.Figure;
 import figures.FigureColour;
 

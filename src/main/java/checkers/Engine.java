@@ -1,6 +1,6 @@
 package checkers;
 
-import board.Board;
+import consoleMode.BoardConsoleMode.Board;
 import figures.FigureColour;
 
 import java.util.Scanner;
@@ -14,7 +14,6 @@ public class Engine {
 
     public Engine(String gameMode) {
             this.playAgainstHuman = gameMode;
-
     }
 
     public void initializeGame(String initialData) {
@@ -39,4 +38,8 @@ public class Engine {
     public boolean getPlayer2Turn() {
         return this.player2.getTurn();
     }
+
+	public static void main(String[] args) {
+		figures.Figure;
+	}
 }

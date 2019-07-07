@@ -1,13 +1,15 @@
-package checkers;
+package consoleMode.CommunicationWithPlayerConsoleMode;
 
 import java.util.Scanner;
+
+import checkers.PlayerAnswerValidation;
 
 public class CommunicationWithThePlayer {
     Scanner scanner = new Scanner(System.in);
     PlayerAnswerValidation validator = new PlayerAnswerValidation();
 
     public String choseSetGameMode() {
-        System.out.println("Hello! Zaczynamy grę w warcaby! Czy chcesz zagrać przeciwko: " +
+        System.out.println("Hello! Zaczynamy grę w warcaby! Czy chcesz zagra� przeciwko: " +
                 "\n[1] komputerowi " +
                 "\n[2] człowiekowi" +
                 "\n[q] rozmyśliłem się i nie chcę grać.");

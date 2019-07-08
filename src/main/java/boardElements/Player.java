@@ -1,4 +1,4 @@
-package checkers;
+package boardElements;
 
 import consoleMode.BoardConsoleMode.BoardConsoleDisplay;
 import figures.Figure;

@@ -1,19 +1,32 @@
 package checkers;
 
+import boardElements.Board;
+import boardElements.Position;
+import figures.FigureColour;
+
 public class PlayerAnswerValidation {
 
-    public boolean isValid1or2(String command) {
-        if (command.charAt(0) == '1' || command.charAt(0) == '2' || command.charAt(0) == 'q' || command.charAt(0) == 'Q') {
-            return true;
-        }
-        return false;
-    }
-
-    public boolean isChosenColourValid(String command) {
-        if (command.charAt(0) == 'B' || command.charAt(0) == 'W' || command.charAt(0) == 'Q'
-            || command.charAt(0) == 'b' || command.charAt(0) == 'w' || command.charAt(0) == 'q') {
-            return true;
-        }
-        return false;
-    }
+	public boolean isHumanValid(String answer) {
+		if (answer.equals("1") || answer.equals("2")) {
+			return true;
+		}
+		return false;
+	}
+	
+	public boolean isColourValid(String answer) {
+		if (answer.equals("1") || answer.equals("2")) {
+			return true;
+		}
+		return false;
+	}
+	
+	public boolean isStartingPositionValid(Board board, FigureColour colour) {
+		//SUB!!!
+		return true;
+	}
+	
+	public boolean isEndPositionValid(Board board, FigureColour colour, Position startPosition) {
+		//SUB!!!
+		return true;
+	}
 }

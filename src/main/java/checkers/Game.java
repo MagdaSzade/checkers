@@ -17,9 +17,10 @@ public class Game {
 		boolean isGameOn = true;
 		
 		gameEngine.initializeGame();
-		while (isGameOn) {
-			
-		}
+		gameEngine.displayBoard();
+		//while (isGameOn) {
+		//	
+		//}
 	}
 
 }

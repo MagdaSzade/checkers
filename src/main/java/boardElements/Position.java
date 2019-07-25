@@ -158,5 +158,19 @@ public class Position {
 		}
 		return String.valueOf(rowChar);
 	}
+	
+	@Override
+	public boolean equals(Object o) {
+		if (o == null) {
+			return false;
+		}
+		if (o instanceof Position) {
+			Position positionToCompare = (Position) o;
+			if (this.col == positionToCompare.getColumn() && this.row == positionToCompare.getRow()) {
+				return true;
+			}
+		}
+		return false;
+	}
 }
 
